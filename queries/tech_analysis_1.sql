@@ -43,8 +43,6 @@ FROM
 ORDER BY emp_no
 ;
 
-SELECT * FROM emp_count_by_dep;
-
 -- Review new table
 SELECT * FROM retiring_employees_by_recent_title;
 
