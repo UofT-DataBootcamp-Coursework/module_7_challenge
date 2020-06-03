@@ -45,4 +45,6 @@ A copy of the ERD you created when mapping out the database should also be inclu
 
 ### 3. Technical Analysis Deliverable #2 - Mentorship Eligibility
 
-[Technical Analysis Deliverable 2](technical_analysis_deliverable_2.csv)
+[Technical Analysis Deliverable 2 - sql file](queries/tech_analysis_2.sql)
+
+[Technical Analysis Deliverable 2 - csv file](data/technical_analysis_deliverable_2.csv)
