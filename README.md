@@ -39,6 +39,8 @@ A copy of the ERD you created when mapping out the database should also be inclu
 
 ### 2. Technical Analysis Deliverable #1 - Number of Retiring Employees by Title
 
+![](images/about_to_retire.PNG)
+
 [Technical Analysis Deliverable 1 - sql file](queries/tech_analysis_1.sql)
 
 [Technical Analysis Deliverable 1 - csv file](data/technical_analysis_deliverable_1.csv)
