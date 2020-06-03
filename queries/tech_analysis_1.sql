@@ -28,7 +28,7 @@ SELECT 	emp_no,
 		title,
 		from_date,
 		salary
--- INTO retiring_employees_by_recent_title
+INTO retiring_employees_by_recent_title
 FROM 
 (SELECT	emp_no,
 	first_name,
@@ -43,9 +43,21 @@ FROM
 ORDER BY emp_no
 ;
 
+SELECT * FROM emp_count_by_dep;
+
 -- Review new table
 SELECT * FROM retiring_employees_by_recent_title;
 
+-- Number of current employees who are about to retire, grouped by job title
+SELECT 	ta1.title AS job_title, count(ta1.title) AS about_to_retire
+INTO total_retire_by_title
+FROM retiring_employees_by_recent_title as ta1
+GROUP BY ta1.title
+ORDER BY ta1.title
+;
+
+-- Review new table
+SELECT * FROM total_retire_by_title;
 
 	  
 	
