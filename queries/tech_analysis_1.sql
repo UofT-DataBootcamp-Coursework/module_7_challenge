@@ -28,7 +28,7 @@ SELECT 	emp_no,
 		title,
 		from_date,
 		salary
-INTO 	retiring_employees_by_recent_title
+INTO retiring_employees_by_recent_title
 FROM 
 (SELECT	emp_no,
 	first_name,
@@ -36,12 +36,16 @@ FROM
 	title,
 	from_date,
 	salary, ROW_NUMBER() OVER
- (PARTITION BY (emp_no)
-  ORDER BY to_date DESC) rn
- FROM retiring_employees_by_title
-) tmp WHERE rn = 1
+ 	(PARTITION BY (emp_no)
+ 	ORDER BY from_date DESC) rn
+	FROM retiring_employees_by_title
+	) tmp WHERE rn = 1
 ORDER BY emp_no
 ;
-	  
+
+-- Review new table
+SELECT * FROM retiring_employees_by_recent_title;
+
+
 	  
 	
