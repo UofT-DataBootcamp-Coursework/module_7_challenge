@@ -3,7 +3,7 @@
 -- Review current_emp table (comprised of current employees close to retirement age)
 SELECT * FROM current_emp;
 
--- Joining retirement_info and titles and salaries tables
+-- Joining current_emp and titles and salaries tables
 SELECT 	ce.emp_no,
 		ce.first_name,
 		ce.last_name,
