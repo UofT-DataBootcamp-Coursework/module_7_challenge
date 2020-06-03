@@ -35,7 +35,7 @@ In your final paragraph, share the results of your analysis and discuss the data
 
 A copy of the ERD you created when mapping out the database should also be included in your README.md.
 
-![](images/EmployeeDB.PNG)
+![](images/EmployeeDB.png)
 
 ### 2. Technical Analysis Deliverable #1 - Number of Retiring Employees by Title
 
