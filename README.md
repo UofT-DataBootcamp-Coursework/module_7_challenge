@@ -39,4 +39,8 @@ A copy of the ERD you created when mapping out the database should also be inclu
 
 ### 2. Technical Analysis Deliverable #1 - Number of Retiring Employees by Title
 
+[Technical Analysis Deliverable 1](technical_analysis_deliverable_1.csv)
+
 ### 3. Technical Analysis Deliverable #2 - Mentorship Eligibility
+
+[Technical Analysis Deliverable 2](technical_analysis_deliverable_2.csv)
