@@ -28,7 +28,7 @@ SELECT 	emp_no,
 		title,
 		from_date,
 		salary
-INTO retiring_employees_by_recent_title
+-- INTO retiring_employees_by_recent_title
 FROM 
 (SELECT	emp_no,
 	first_name,
