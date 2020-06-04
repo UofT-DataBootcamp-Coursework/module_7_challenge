@@ -1,7 +1,5 @@
 # Module 7 Challenge - Pewlett Hackard
 
-Your manager would like to know how many roles will need to be filled as the “silver tsunami” begins to make an impact. They would also like to identify retirement-ready employees who qualify to mentor the next generation of Pewlett Hackard employees.
-
 ## Challenge Overview
 
 1.  Delivering Results: A README.md in the form of a technical report that details your analysis and findings
@@ -20,21 +18,36 @@ Software: PostgreSQL, pgAdmin 4
 
 ## Challenge Summary
 
-### 1. Results
+### 1. Technical Report
 
-In your first paragraph, introduce the problem that you were using data to solve.
+**Overview
 
+The manager would like to know how many roles will need to be filled as the “silver tsunami” begins to make an impact at Pewlett Hackard (technical analysis #1). They would also like to identify retirement-ready employees who qualify to mentor the next generation of Pewlett Hackard employees (technical analysis #2). 
+
+**Analysis Performed
 
 In your second paragraph, summarize the steps that you took to solve the problem, as well as the challenges that you encountered along the way. This is an excellent spot to provide examples and descriptions of the code that you used.
 
-In your final paragraph, share the results of your analysis and discuss the data that you’ve generated. Have you identified any limitations to the analysis? What next steps would you recommend?
-
-Per technical analysis #1, there will be 33,118 employees approaching retirement. Senior Engineers and Senior Staff combined comprise 80% of the total 
+In order to fulfill technical analysis #1, TO BE COMPLETED
 
 
-A copy of the ERD you created when mapping out the database should also be included in your README.md.
+In order to fulfill technical analysis #2, TO BE COMPLETED (UPDATE QUERY TO INCLUDE PARTITION)
+
+
+**Results, limitations, and next steps
+
+Per technical analysis #1, there will be 33,118 employees approaching retirement. Senior Engineers (13,651) and Senior Staff (12,872) combined comprise 80% of the total employees approaching retirement, while Engineer (8%), Staff (6%), Technique Leader (5%), and Assistant Engineer (1%) make up the difference. Only 2 Managers meet the criteria for employees approaching retirement, which should not be a concern to fill as there appears to be ample availability among current employees for a potential promotion.
+
+One limitation noted within technical analysis #1 is that location of these employees aren't known (assumption: there are multiple company locations across the country). Further analysis over their specific locations would be helpful to better understand which locations will be impacted the most by the "silver tsunami".
+
+Per technical analysis #2, there will be 1,549 employees eligible to be a part of the mentorship program. Senior Staff (569) and Senior Engineer (529) combined comprise over 70% of eligible employees, while Engineer (12%), Staff (10%), Technique Leader (5%), and Assistant Engineer (2%) make up the difference. It is interesting to note that no Managers met the criteria (born in 1965, currently employed), a potential issue if the mentorship program were to extend to Managers as well. Recommend to expand the criteria to capture a larger pool of applicants.
+
+One limitation noted within technical analysis #2 is that no gender, ethnic/race, or ability information is presented. When setting up a mentorship program, it would be advised to ensure your pool of mentors are as diverse as the community they are serving (assumption: not everyone can be a mentor; application-based program). 
+
 Entity Relationship Diagram - Pewlett Hackard
+
 ![](images/EmployeeDB.png)
+
 [ERD Script](queries/ERD_script.txt)
 
 ### 2. Technical Analysis Deliverable #1 - Number of Retiring Employees by Title
