@@ -19,7 +19,7 @@ Table 2 will list those employees from Table 1 who are eligible for the mentorsh
 
 ## Resources
 
-Data Source:
+[Data Sources](data)
 
 Software: PostgreSQL, pgAdmin 4
 
