@@ -70,7 +70,7 @@ One limitation noted within technical analysis #2 is that no gender identity, et
 
 Historically there have been a total of 300,024 employees hired at Pewlett Hackard, and currently 240,124 remain actively employed. Regarding individuals being hired, the earliest hire occured in 1985 while the last employee hiring took place in 2000. Since the last title change occured in 2002, it seems odd that no employee was hired between 2000 and 2002, leading to the belief that the current raw data related to employee hiring may be out of date. It is recommended to confirm when the last time the record keeping was updated to ensure/confirm that all records are kept up-to-date. [hiring queries](queries/hiring.sql)
 
-Entity Relationship Diagram - Pewlett Hackard
+**Entity Relationship Diagram - Pewlett Hackard**
 
 ![](images/PW_ERD.png)
 
