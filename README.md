@@ -36,7 +36,7 @@ Next, a second new table (retiring_employees_by_title) was created by joining cu
 
 ![](images/TA1_02.PNG)
 
-Upon review of retiring_employees_by_title, it was noted that there were numerous duplicate employee records due to those employees who had title changes throughout their employment would be shown based on all their various titles. In order to only capture the most recent title, the data was then partitioned to show only the most recent title per employee (retiring_employees_by_title). 
+Upon review of retiring_employees_by_title, it was noted that there were numerous duplicate employee records due to those employees who had title changes throughout their employment would be shown based on all their various titles. In order to only capture the most recent title, the data was then partitioned to show only the most recent title per employee (retiring_employees_by_recent_title). 
 
 ![](images/TA1_03.PNG)
 
