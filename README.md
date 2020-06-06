@@ -28,10 +28,10 @@ The manager would like to know how many roles will need to be filled as the “s
 
 In your second paragraph, summarize the steps that you took to solve the problem, as well as the challenges that you encountered along the way. This is an excellent spot to provide examples and descriptions of the code that you used.
 
-In order to fulfill technical analysis #1, TO BE COMPLETED
+**In order to fulfill technical analysis #1, TO BE COMPLETED <-------
 
-
-In order to fulfill technical analysis #2, TO BE COMPLETED (UPDATE QUERY TO INCLUDE PARTITION)
+ 
+**In order to fulfill technical analysis #2, TO BE COMPLETED (UPDATE QUERY TO INCLUDE PARTITION) <-------
 
 
 **Results, limitations, and next steps
@@ -43,6 +43,8 @@ One limitation noted within technical analysis #1 is that location of these empl
 Per technical analysis #2, there will be 1,549 employees eligible to be a part of the mentorship program. Senior Staff (569) and Senior Engineer (529) combined comprise over 70% of eligible employees, while Engineer (12%), Staff (10%), Technique Leader (5%), and Assistant Engineer (2%) make up the difference. It is interesting to note that no Managers met the criteria (born in 1965, currently employed), a potential issue if the mentorship program were to extend to Managers as well. Recommend to expand the criteria to capture a larger pool of applicants.
 
 One limitation noted within technical analysis #2 is that no gender, ethnic/race, or ability information is presented. When setting up a mentorship program, it would be advised to ensure your pool of mentors are as diverse as the community they are serving (assumption: not everyone can be a mentor; application-based program). 
+
+**INCLUDE INFO FOR EMPLOYEES BEING HIRED <-------
 
 Entity Relationship Diagram - Pewlett Hackard
 
