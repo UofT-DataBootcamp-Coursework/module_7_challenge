@@ -20,21 +20,21 @@ Software: PostgreSQL, pgAdmin 4
 
 ### 1. Technical Report
 
-**Overview
+**Overview**
 
 The manager would like to know how many roles will need to be filled as the “silver tsunami” begins to make an impact at Pewlett Hackard (technical analysis #1). They would also like to identify retirement-ready employees who qualify to mentor the next generation of Pewlett Hackard employees (technical analysis #2). 
 
-**Analysis Performed
+**Analysis Performed**
 
 In your second paragraph, summarize the steps that you took to solve the problem, as well as the challenges that you encountered along the way. This is an excellent spot to provide examples and descriptions of the code that you used.
 
-**In order to fulfill technical analysis #1, TO BE COMPLETED <-------
+**In order to fulfill technical analysis #1, TO BE COMPLETED <-------**
 
  
-**In order to fulfill technical analysis #2, TO BE COMPLETED (UPDATE QUERY TO INCLUDE PARTITION) <-------
+**In order to fulfill technical analysis #2, TO BE COMPLETED (UPDATE QUERY TO INCLUDE PARTITION) <-------**
 
 
-**Results, limitations, and next steps
+**Results, limitations, and next steps**
 
 Per technical analysis #1, there will be 33,118 employees approaching retirement. Senior Engineers (13,651) and Senior Staff (12,872) combined comprise 80% of the total employees approaching retirement, while Engineer (8%), Staff (6%), Technique Leader (5%), and Assistant Engineer (1%) make up the difference. Only 2 Managers meet the criteria for employees approaching retirement, which should not be a concern to fill as there appears to be ample availability among current employees for a potential promotion.
 
@@ -44,13 +44,13 @@ Per technical analysis #2, there will be 1,549 employees eligible to be a part o
 
 One limitation noted within technical analysis #2 is that no gender, ethnic/race, or ability information is presented. When setting up a mentorship program, it would be advised to ensure your pool of mentors are as diverse as the community they are serving (assumption: not everyone can be a mentor; application-based program). 
 
-**INCLUDE INFO FOR EMPLOYEES BEING HIRED <-------
+**INCLUDE INFO FOR EMPLOYEES BEING HIRED <-------**
 
 Entity Relationship Diagram - Pewlett Hackard
 
 ![](images/PW_ERD.png)
 
-[ERD Script](queries/ERD_script.txt)
+[ERD Script](queries/ERD%20script.txt)
 
 ### 2. Technical Analysis Deliverable #1 - Number of Retiring Employees by Title
 
