@@ -9,7 +9,8 @@ INTO mentorship_eligibility
 FROM employees AS e 
 INNER JOIN dep_employees AS d 
 ON (e.emp_no = d.emp_no)
-WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31') AND (d.to_date = ('9999-01-01'))
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31') 
+AND (d.to_date = ('9999-01-01'))
 ;
 
 -- Review mentorship_eligibility
