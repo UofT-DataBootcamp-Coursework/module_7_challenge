@@ -46,7 +46,7 @@ One limitation noted within technical analysis #2 is that no gender, ethnic/race
 
 Entity Relationship Diagram - Pewlett Hackard
 
-![](images/EmployeeDB.png)
+![](images/PW_ERD.png)
 
 [ERD Script](queries/ERD_script.txt)
 
