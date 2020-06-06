@@ -38,7 +38,7 @@ Next, a second new table (retiring_employees_by_title) was created by joining cu
 
 Upon review of retiring_employees_by_title, it was noted that there were numerous duplicate employee records due to those employees who had title changes throughout their employment would be shown based on all their various titles. In order to only capture the most recent title, the data was then partitioned to show only the most recent title per employee (retiring_employees_by_title). 
 
-![](images/TA1_01.PNG)
+![](images/TA1_03.PNG)
 
 Lastly, after it was confirmed there is only one title per employee, using the group by function, the total number of current employees who are about to retire grouped by job title (total_retire_by_title) was created in order to provide the manager as requested. There were no challenges noted for this technical analysis.
 
