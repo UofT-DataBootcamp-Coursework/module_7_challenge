@@ -46,7 +46,7 @@ Lastly, after it was confirmed there is only one title per employee, using the g
 
  *Technical Analysis #2*
  
-In order to fulfill technical analysis #2, a new table (mentorship_eligibility) needed to be created in order to initially capture the required information (employees born betweem January 01, 1965 and December 31, 1965; currently employed) - this was achieved by joining the employees table with the dep_employees table to capture the employee number, first name, last name, and employment to date (filtered for active employees - selected only to dates that were 9999-01-01).
+In order to fulfill technical analysis #2, a new table (mentorship_eligibility) needed to be created in order to initially capture the required information (employees born between January 01, 1965 and December 31, 1965; currently employed) - this was achieved by joining the employees table with the dep_employees table to capture the employee number, first name, last name, and employment to date (filtered for active employees - selected only to dates that were 9999-01-01).
 
 ![](images/TA2_01.PNG)
 
